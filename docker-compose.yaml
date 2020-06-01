@@ -7,8 +7,8 @@ services:
 #      - backend
     ports:
       - "3000:3000"
-#    volumes: 
-#      - ./:/usr/src/app
+    volumes: 
+      - ./:/usr/src/app
 
   web-cli:
     image: mywebapp
